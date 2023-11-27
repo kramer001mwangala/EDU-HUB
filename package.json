@@ -1,0 +1,27 @@
+{
+  "name": "edu-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kramer001mwangala/EDU-HUB.git"
+  },
+  "author": "Lima-Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kramer001mwangala/EDU-HUB/issues"
+  },
+  "homepage": "https://github.com/kramer001mwangala/EDU-HUB#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7"
+  }
+}
