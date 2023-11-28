@@ -1,3 +1,4 @@
+<%- include('partials/header', {title: 'About Us'}) %>
 <div class="bg-white flex flex-col">
   <div
     class="self-stretch flex w-full items-stretch justify-between gap-5 mt-6 max-md:max-w-full max-md:flex-wrap"
@@ -11,22 +12,21 @@
       <div
         class="text-cyan-600 text-xl leading-6 grow whitespace-nowrap mt-10 self-start"
       >
-        SECEDU Hub
+        <a href="/">SECEDU Hub</a>
       </div>
     </div>
     <div
       class="self-center flex items-start justify-between gap-1 my-auto px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center"
     >
-      <div class="text-sky-900 text-xl leading-6 my-auto">ABOUT US</div>
-      <div class="text-sky-900 text-xl leading-6 my-auto">CYBER THREATS</div>
-      <div class="text-sky-900 text-xl leading-6 my-auto">OUR RESPONSE</div>
+      <div class="text-sky-900 text-xl leading-6 my-auto"><a href="/cyberThreats">CYBER THREATS</a></div>
+      <div class="text-sky-900 text-xl leading-6 my-auto"><a href="/trainingAndDevelopment">OUR RESPONSE</a></div>
       <img
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/65ec8e81-e5d1-4ba3-82ef-d066da497764?apiKey=3d4614815a2e4e8582811d42cca0441f&"
         class="aspect-square object-contain object-center w-10 overflow-hidden self-center shrink-0 max-w-full my-auto"
       />
-      <div class="text-sky-900 text-xl leading-6 self-center my-auto">NEWS</div>
-      <div class="text-sky-900 text-xl leading-6 my-auto">GET INVOLVED</div>
+      <div class="text-sky-900 text-xl leading-6 self-center my-auto"><a href="/News">NEWS</a></div>
+      <div class="text-sky-900 text-xl leading-6 my-auto"><a href="/getInvolved">GET INVOLVED</a></div>
       <img
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/200b2a68-6f41-4999-80cf-7186ec8fb2cc?apiKey=3d4614815a2e4e8582811d42cca0441f&"
@@ -35,7 +35,7 @@
       <div
         class="text-sky-900 text-xl leading-6 bg-green-500 self-stretch grow px-5 py-5"
       >
-        DONATE
+        <a href="/Donate">DONATE</a>
       </div>
       <img
         loading="lazy"
@@ -526,3 +526,4 @@
     </div>
   </div>
 </div>
+<%- include('partials/footer') %>

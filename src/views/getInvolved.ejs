@@ -1,3 +1,4 @@
+<%- include('partials/header', {title: 'Get Involved'}) %>
 <div class="bg-white flex flex-col">
   <div class="self-stretch z-[1] w-full mt-6 max-md:max-w-full">
     <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -11,7 +12,7 @@
           <div
             class="text-cyan-600 text-xl leading-6 grow whitespace-nowrap mt-10 self-start"
           >
-            SECEDU Hub
+            <a href="/">SECEDU Hub</a>
           </div>
         </div>
       </div>
@@ -21,16 +22,15 @@
         <div
           class="flex grow items-start justify-between gap-1 mt-5 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:mt-10"
         >
-          <div class="text-sky-900 text-xl leading-6 mt-4">ABOUT US</div>
-          <div class="text-sky-900 text-xl leading-6 mt-4">CYBER THREATS</div>
-          <div class="text-sky-900 text-xl leading-6 mt-4">OUR RESPONSE</div>
+          <div class="text-sky-900 text-xl leading-6 mt-4"><a href="/aboutus">ABOUT US</a></div>
+          <div class="text-sky-900 text-xl leading-6 mt-4"><a href="/cyberThreats">CYBER THREATS</a></div>
+          <div class="text-sky-900 text-xl leading-6 mt-4"><a href="/trainingAndDevelopment">OUR RESPONSE</a></div>
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/e5671a66-4391-4045-9b85-d0c644be15c2?apiKey=3d4614815a2e4e8582811d42cca0441f&"
             class="aspect-square object-contain object-center w-10 overflow-hidden shrink-0 max-w-full mt-2 self-start"
           />
-          <div class="text-sky-900 text-xl leading-6 mt-5 self-start">NEWS</div>
-          <div class="text-sky-900 text-xl leading-6 mt-5">GET INVOLVED</div>
+          <div class="text-sky-900 text-xl leading-6 mt-5 self-start"><a href="/News">NEWS</a></div>
           <div class="self-stretch flex grow basis-[0%] flex-col items-stretch">
             <div
               class="flex items-start justify-between gap-5 max-md:justify-center"
@@ -43,7 +43,7 @@
               <div
                 class="text-sky-900 text-xl leading-6 bg-green-500 self-stretch grow px-5 py-5 max-md:pl-2.5"
               >
-                DONATE
+                <a href="/Donate">DONATE</a>
               </div>
               <img
                 loading="lazy"
@@ -269,3 +269,4 @@
     </div>
   </div>
 </div>
+<%- include('partials/footer') %>

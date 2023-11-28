@@ -1,3 +1,4 @@
+<%- include('partials/header', {title: 'CyberAttacks and Disinformation'}) %>
 <div class="bg-white flex flex-col">
   <div
     class="self-stretch flex w-full items-stretch justify-between gap-5 mt-6 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center"
@@ -11,23 +12,23 @@
       <div
         class="text-cyan-600 text-xl leading-6 grow whitespace-nowrap mt-10 self-start"
       >
-        SECEDU Hub
+        <a href="/">SECEDU Hub</a>
       </div>
     </div>
     <div
       class="self-center flex items-stretch justify-between gap-3.5 my-auto max-md:max-w-full max-md:flex-wrap max-md:justify-center"
     >
-      <div class="text-sky-900 text-xl leading-6">ABOUT US</div>
-      <div class="text-sky-900 text-xl leading-6">CYBER THREATS</div>
+      <div class="text-sky-900 text-xl leading-6"><a href="/aboutus">ABOUT US</a></div>
+      <div class="text-sky-900 text-xl leading-6"><a href="/cyberThreats">CYBER THREATS</a></div>
       <div class="text-sky-900 text-xl leading-6 whitespace-nowrap">
-        OUR RESPONSE
+        <a href="/trainingAndDevelopment">OUR RESPONSE</a>
       </div>
     </div>
     <div
       class="self-center flex items-start justify-between gap-3 my-auto max-md:max-w-full max-md:flex-wrap max-md:justify-center"
     >
-      <div class="text-sky-900 text-xl leading-6 self-center my-auto">NEWS</div>
-      <div class="text-sky-900 text-xl leading-6 my-auto">GET INVOLVED</div>
+      <div class="text-sky-900 text-xl leading-6 self-center my-auto"><a href="/News">NEWS</a></div>
+      <div class="text-sky-900 text-xl leading-6 my-auto"><a href="/getInvolved">GET INVOLVED</a></div>
       <img
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/d1ebb256-09ff-4cbd-a4b8-7bbf22b1d38c?apiKey=3d4614815a2e4e8582811d42cca0441f&"
@@ -36,7 +37,7 @@
       <div
         class="text-sky-900 text-xl leading-6 bg-green-500 self-stretch grow px-5 py-5 max-md:pl-2.5"
       >
-        DONATE
+        <a href="/Donate">DONATE</a>
       </div>
       <img
         loading="lazy"
@@ -398,3 +399,4 @@
     </div>
   </div>
 </div>
+<%- include('partials/footer') %>
